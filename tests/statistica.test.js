@@ -43,8 +43,12 @@
 
 describe('Statistica',() => {
 
-    describe('Moda Function',() => {
+    describe('Media Function',() => {
         test('Should thow error if is not an array',() => {
+            expect();
+        });
+
+        test('Should throw error if array contains strings',() => {
             expect();
         });
 
@@ -61,11 +65,19 @@ describe('Statistica',() => {
         test('Should throw error if the array is not ASC sorted',() => {
             expect();
         });
+
+        test('Should throw error if array contains strings',() => {
+            expect();
+        });
     });
 
     describe('Varianza Function',() => {
 
         test('Should thow error if is not an array',() => {
+            expect();
+        });
+
+        test('Should throw error if array contains strings',() => {
             expect();
         });
 
@@ -80,10 +92,27 @@ describe('Statistica',() => {
             expect();
         });
 
-        test('Should throw error if  varianza < 0',() => {
+        test('Should throw error if array contains strings',() => {
             expect();
         });
+
+        test('Should throw error if array contains more than 1 element and all items are different on each other',() => {});
     })
+
+    describe('Deviazione',() => {
+
+        test('Should thow error if is not an array',() => {
+            expect();
+        });
+
+        test('Should throw error if array contains strings',() => {
+            expect();
+        });
+
+        test('Should throw error if there is a negative number when square root',() =>{
+            expect();
+        });
+    }
 
 
 })
